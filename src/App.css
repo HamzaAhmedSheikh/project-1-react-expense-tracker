@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@1,700&display=swap');
 
 :root {
   --box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
@@ -32,8 +33,12 @@ h1 {
 
 h2 {
   letter-spacing: 1px;
-  margin: 0;
+  margin-top: 35px;
   text-align: center;
+  font-size: 32px;
+  font-family: 'Merriweather Sans', sans-serif;
+  color:#3457AE;
+  text-shadow: 2px 2px 5px red;  
 }
 
 h3 {
